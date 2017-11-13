@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ParkDetailsViewController.h
 //  FloridaStateParks
 //
 //  Created by Administrator on 11/12/17.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Parks.h"
 
-@interface ViewController : UIViewController
-
-
+@interface ParkDetailsViewController : UIViewController
+@property (strong, nonatomic) Parks* selectedPark;
 @end
-

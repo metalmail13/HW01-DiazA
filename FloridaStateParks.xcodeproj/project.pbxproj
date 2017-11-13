@@ -8,24 +8,35 @@
 
 /* Begin PBXBuildFile section */
 		C3F43A901FB8A86F00EB34A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F43A8F1FB8A86F00EB34A4 /* AppDelegate.m */; };
-		C3F43A931FB8A86F00EB34A4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F43A921FB8A86F00EB34A4 /* ViewController.m */; };
 		C3F43A961FB8A86F00EB34A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3F43A941FB8A86F00EB34A4 /* Main.storyboard */; };
 		C3F43A981FB8A86F00EB34A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3F43A971FB8A86F00EB34A4 /* Assets.xcassets */; };
 		C3F43A9B1FB8A86F00EB34A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3F43A991FB8A86F00EB34A4 /* LaunchScreen.storyboard */; };
 		C3F43A9E1FB8A86F00EB34A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F43A9D1FB8A86F00EB34A4 /* main.m */; };
+		C3F43AA61FB8A8EA00EB34A4 /* ParksTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F43AA51FB8A8EA00EB34A4 /* ParksTableViewController.m */; };
+		C3F43AA91FB8AD4C00EB34A4 /* Parks.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F43AA81FB8AD4C00EB34A4 /* Parks.m */; };
+		C3F43AAC1FB8B0A100EB34A4 /* ParksTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F43AAB1FB8B0A100EB34A4 /* ParksTableViewCell.m */; };
+		C3F43AAF1FB8B1F600EB34A4 /* ParkDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F43AAE1FB8B1F600EB34A4 /* ParkDetailsViewController.m */; };
+		C3F43AB21FB8CA9D00EB34A4 /* ParkImages in Resources */ = {isa = PBXBuildFile; fileRef = C3F43AB11FB8CA9D00EB34A4 /* ParkImages */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C3F43A8B1FB8A86F00EB34A4 /* FloridaStateParks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloridaStateParks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3F43A8E1FB8A86F00EB34A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C3F43A8F1FB8A86F00EB34A4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C3F43A911FB8A86F00EB34A4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C3F43A921FB8A86F00EB34A4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C3F43A951FB8A86F00EB34A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3F43A971FB8A86F00EB34A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3F43A9A1FB8A86F00EB34A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3F43A9C1FB8A86F00EB34A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3F43A9D1FB8A86F00EB34A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3F43AA41FB8A8EA00EB34A4 /* ParksTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParksTableViewController.h; sourceTree = "<group>"; };
+		C3F43AA51FB8A8EA00EB34A4 /* ParksTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParksTableViewController.m; sourceTree = "<group>"; };
+		C3F43AA71FB8AD4C00EB34A4 /* Parks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Parks.h; sourceTree = "<group>"; };
+		C3F43AA81FB8AD4C00EB34A4 /* Parks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Parks.m; sourceTree = "<group>"; };
+		C3F43AAA1FB8B0A100EB34A4 /* ParksTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParksTableViewCell.h; sourceTree = "<group>"; };
+		C3F43AAB1FB8B0A100EB34A4 /* ParksTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParksTableViewCell.m; sourceTree = "<group>"; };
+		C3F43AAD1FB8B1F600EB34A4 /* ParkDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParkDetailsViewController.h; sourceTree = "<group>"; };
+		C3F43AAE1FB8B1F600EB34A4 /* ParkDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParkDetailsViewController.m; sourceTree = "<group>"; };
+		C3F43AB11FB8CA9D00EB34A4 /* ParkImages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ParkImages; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +69,20 @@
 		C3F43A8D1FB8A86F00EB34A4 /* FloridaStateParks */ = {
 			isa = PBXGroup;
 			children = (
-				C3F43A8E1FB8A86F00EB34A4 /* AppDelegate.h */,
-				C3F43A8F1FB8A86F00EB34A4 /* AppDelegate.m */,
-				C3F43A911FB8A86F00EB34A4 /* ViewController.h */,
-				C3F43A921FB8A86F00EB34A4 /* ViewController.m */,
+				C3F43AB11FB8CA9D00EB34A4 /* ParkImages */,
+				C3F43AA71FB8AD4C00EB34A4 /* Parks.h */,
+				C3F43AA81FB8AD4C00EB34A4 /* Parks.m */,
+				C3F43AAA1FB8B0A100EB34A4 /* ParksTableViewCell.h */,
+				C3F43AAB1FB8B0A100EB34A4 /* ParksTableViewCell.m */,
+				C3F43AAD1FB8B1F600EB34A4 /* ParkDetailsViewController.h */,
+				C3F43AAE1FB8B1F600EB34A4 /* ParkDetailsViewController.m */,
+				C3F43AA41FB8A8EA00EB34A4 /* ParksTableViewController.h */,
+				C3F43AA51FB8A8EA00EB34A4 /* ParksTableViewController.m */,
 				C3F43A941FB8A86F00EB34A4 /* Main.storyboard */,
 				C3F43A971FB8A86F00EB34A4 /* Assets.xcassets */,
 				C3F43A991FB8A86F00EB34A4 /* LaunchScreen.storyboard */,
+				C3F43A8E1FB8A86F00EB34A4 /* AppDelegate.h */,
+				C3F43A8F1FB8A86F00EB34A4 /* AppDelegate.m */,
 				C3F43A9C1FB8A86F00EB34A4 /* Info.plist */,
 				C3F43A9D1FB8A86F00EB34A4 /* main.m */,
 			);
@@ -131,6 +149,7 @@
 			files = (
 				C3F43A9B1FB8A86F00EB34A4 /* LaunchScreen.storyboard in Resources */,
 				C3F43A981FB8A86F00EB34A4 /* Assets.xcassets in Resources */,
+				C3F43AB21FB8CA9D00EB34A4 /* ParkImages in Resources */,
 				C3F43A961FB8A86F00EB34A4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,9 +161,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3F43A931FB8A86F00EB34A4 /* ViewController.m in Sources */,
 				C3F43A9E1FB8A86F00EB34A4 /* main.m in Sources */,
+				C3F43AAF1FB8B1F600EB34A4 /* ParkDetailsViewController.m in Sources */,
+				C3F43AA61FB8A8EA00EB34A4 /* ParksTableViewController.m in Sources */,
 				C3F43A901FB8A86F00EB34A4 /* AppDelegate.m in Sources */,
+				C3F43AAC1FB8B0A100EB34A4 /* ParksTableViewCell.m in Sources */,
+				C3F43AA91FB8AD4C00EB34A4 /* Parks.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
